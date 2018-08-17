@@ -114,18 +114,13 @@ Google Charts is an open source chart library which is powerful and very simple 
 
 ## 💿 Performance of libraries.
 
-chart.js 와 billboard.js의 그래프는 계산결과에 따라 1개의 계산결과와 9개의 랜덤결과를 생성하는 것으로 작성하였다.
+<img width="500" height="400" src="./src/compare.png"></img>
 
-Chart.js Execution Time: 5.109130859375ms (chart.js 바 그래프 10개.)
-Chart.js Execution Time: 2.545654296875ms (chart.js 라인 그래프 10개.)
-D3.js Bar Execution Time: 0.333251953125ms (d3.js 바 그래프 1개.)
-D3.js Line Execution Time: 0.597900390625ms (d3.js 라인 그래프 1개.)
-D3.js Bubble Execution Time: 0.19091796875ms (d3.js 버블 그래프 1개.)
-Billboard.js Execution Time: 13.80419921875ms (billboard.js 바 그래프 10개.)
-Billboard.js Execution Time: 15.85107421875ms (billboard.js 라인 그래프 10개.)
-Billboard.js Execution Time: 20.041015625ms (billboard.js 버블 그래프 10개.)
+The graphs of chart.js and billboard.js were created by generating one calculation result and nine random results according to the calculation results.
 
-D3 기반으로 하는 billboard.js는 확실히 속도가 떨어지는 결과를 볼 수 있었다.
+Chart.js Execution Time: 5.109130859375ms (10 charts.js bar graphs) Chart.js Execution Time: 2.545654296875ms (10 charts.js line graphs) D3.js Bar Execution Time: 0.333251953125ms (d3.js bar D3.js Line Execution Time: 0.597900390625ms (one d3.js line graph) D3.js Bubble Execution Time: 0.19091796875ms (one d3.js bubble graph) Billboard.js Execution Time: 13.80419921875 ms (billboard.js bar graph 10) Billboard.js Execution Time: 15.85107421875ms (billboard.js line graph 10) Billboard.js Execution Time: 20.041015625ms (billboard.js bubble graph 10)
+
+The billboard.js, based on D3, was clearly slower.
 
     
    

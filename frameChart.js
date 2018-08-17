@@ -52,6 +52,42 @@ let chartBar = new Chart(grp, {
                 label: "Result",
                 backgroundColor: "#ffe5ec",
                 data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#ffe5f2",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#ffe5f9",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#ffe5ff",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#f9e5ff",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#ffe5ec",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#ece5ff",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#e5e5ff",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#e5ecff",
+                data: [0,0,0,0,0]
+            },
+            {
+                backgroundColor: "#e5f2ff",
+                data: [0,0,0,0,0]
             }
         ]
     },
@@ -103,6 +139,51 @@ let chartLine = new Chart(grp2, {
             {
                 label: "Result",
                 borderColor: "#ffe5ec",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#ffe5f2",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#ffe5f9",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#ffe5ff",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#f9e5ff",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#ffe5ec",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#ece5ff",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#e5e5ff",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#e5ecff",
+                fill: false,
+                data: [0,0,0,0,0]
+            },
+            {
+                borderColor: "#e5f2ff",
                 fill: false,
                 data: [0,0,0,0,0]
             }
@@ -280,7 +361,16 @@ let billBarData = bb.generate({
     data: {
         type:"bar",
         columns: [
-            ["data1", 0, 0, 0, 0, 0]
+            ["data1", 0, 0, 0, 0, 0],
+            ["data2", 0, 0, 0, 0, 0],
+            ["data3", 0, 0, 0, 0, 0],
+            ["data4", 0, 0, 0, 0, 0],
+            ["data5", 0, 0, 0, 0, 0],
+            ["data6", 0, 0, 0, 0, 0],
+            ["data7", 0, 0, 0, 0, 0],
+            ["data8", 0, 0, 0, 0, 0],
+            ["data9", 0, 0, 0, 0, 0],
+            ["data10", 0, 0, 0, 0, 0]
         ]
     },
     axis: {
@@ -299,7 +389,16 @@ let billBarData = bb.generate({
     },
     color: {
         pattern: [
-            "#ffe5ec"
+            "#ffe5ec",
+            "#ffe5f2",
+            "#ffe5f9",
+            "#ffe5ff",
+            "#f9e5ff",
+            "#ffe5ec",
+            "#ece5ff",
+            "#e5e5ff",
+            "#e5ecff",
+            "#e5f2ff"
         ]
       },
     clipPath: true
@@ -310,7 +409,16 @@ let billAreaData = bb.generate({
     data: {
       type: "spline",
       columns: [
-        ["data1", 0, 0, 0, 0, 0]
+        ["data1", 0, 0, 0, 0, 0],
+        ["data2", 0, 0, 0, 0, 0],
+        ["data3", 0, 0, 0, 0, 0],
+        ["data4", 0, 0, 0, 0, 0],
+        ["data5", 0, 0, 0, 0, 0],
+        ["data6", 0, 0, 0, 0, 0],
+        ["data7", 0, 0, 0, 0, 0],
+        ["data8", 0, 0, 0, 0, 0],
+        ["data9", 0, 0, 0, 0, 0],
+        ["data10", 0, 0, 0, 0, 0]
       ]
     },
     axis: {
@@ -329,7 +437,16 @@ let billAreaData = bb.generate({
     },
     color: {
         pattern: [
-            "#ffe5ec"
+            "#ffe5ec",
+            "#ffe5f2",
+            "#ffe5f9",
+            "#ffe5ff",
+            "#f9e5ff",
+            "#ffe5ec",
+            "#ece5ff",
+            "#e5e5ff",
+            "#e5ecff",
+            "#e5f2ff"
         ]
       },
   });
@@ -338,7 +455,16 @@ let billBubbleData = bb.generate({
     bindto: "#chart3",
     data: {
         columns: [
-            ["data1", 0.1, 0.1, 0.1, 0.1, 0.1]
+            ["data1", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data2", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data3", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data4", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data5", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data6", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data7", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data8", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data9", 0.1, 0.1, 0.1, 0.1, 0.1],
+            ["data10", 0.1, 0.1, 0.1, 0.1, 0.1]
         ],
         type: "bubble",
         labels: true
@@ -356,7 +482,16 @@ let billBubbleData = bb.generate({
     },
     color: {
         pattern: [
-            "#ffe5ec"
+            "#ffe5ec",
+            "#ffe5f2",
+            "#ffe5f9",
+            "#ffe5ff",
+            "#f9e5ff",
+            "#ffe5ec",
+            "#ece5ff",
+            "#e5e5ff",
+            "#e5ecff",
+            "#e5f2ff"
         ]
       },
 });
@@ -672,6 +807,15 @@ function drawChart(chartBar) {
     console.time("Chart.js Execution Time");
     for (let i = 0; i < barData.length; i++) {
         chartBar.data.datasets[0].data[i] = barData[i];
+        chartBar.data.datasets[1].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[2].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[3].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[4].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[5].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[6].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[7].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[8].data[i] = barData[i]*Math.random().toPrecision(2);
+        chartBar.data.datasets[9].data[i] = barData[i]*Math.random().toPrecision(2);
     }
     chartBar.update();
     let endTime = new Date().getTime();
@@ -813,6 +957,15 @@ function drawBillboard(billData) {
     for (let i = 0; i < barData.length; i++) {
         //*** Number로 형변환을 해주자 ***
         billData.data()[0].values[i].value = Number(barData[i]); 
+        billData.data()[1].values[i].value = Number(barData[i]*Math.random()).toPrecision(2);
+        billData.data()[2].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[3].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[4].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[5].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[6].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[7].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[8].values[i].value = Number(barData[i]*Math.random()).toPrecision(2); 
+        billData.data()[9].values[i].value = Number(barData[i]*Math.random()).toPrecision(2);  
     }
     billData.show();
     let endTime = new Date().getTime();
