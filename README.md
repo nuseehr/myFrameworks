@@ -4,21 +4,22 @@
 <img width="100" height="100" src="./src/java.png"></img>
 <img width="100" height="100" src="./src/java.png"></img>
 
+ #### Written By Lee Sun Hong, KOOKMIN UNIV. SW major junior
+
 # Data Visualization.
 > Chart.js, D3.js, Google Chart, Billboard.js, .... etc.
 
 
 
 ## 🔑 Table of Contents
-* [About Data visualization.](#-Introducing-various-libraries)
-* [Factors to consider when selecting a Web framework.](#-Performance-of-libraries)
-* [Introducing various frameworks.](#-Introducing-various-libraries)
+* [About Data visualization.]()
+* [Factors to consider when selecting a Web framework.]()
+* [Introducing various frameworks.]()
     * [D3.js.]()
     * [Chart.js.]()
     * [Billboard.js.]()
     * [Google Chart.]()
-* [Performance of frameworks.](#-Performance-of-libraries)
-* [Features](#-features)
+* [Performance of frameworks.]()
 
 
 ## 🎯 About Data visualization.
