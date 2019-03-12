@@ -4,7 +4,7 @@
 <img width="100" height="100" src="./src/java.png"></img>
 <img width="100" height="100" src="./src/java.png"></img>
 
- #### Written By Lee Sun Hong, KOOKMIN UNIV. SW major junior
+ #### Written By LEE SUN HONG, KOOKMIN UNIV. SW major junior
 
 # Data Visualization.
 > Chart.js, D3.js, Google Chart, Billboard.js, .... etc.
